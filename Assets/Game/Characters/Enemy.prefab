@@ -142,7 +142,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.30080724
+  m_Radius: 0.44
   m_Height: 1.8898532
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
@@ -171,6 +171,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
+  suspicionTime: 3
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  waypointDwellTime: 3
+  patrolSpeedFraction: 0.2
 --- !u!4 &8427007315278364847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 241094302415354677, guid: e73a337775950d445ad06dc96f0ffae2, type: 3}
