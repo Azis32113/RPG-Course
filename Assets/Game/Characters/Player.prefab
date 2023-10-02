@@ -120,6 +120,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241094302415354679, guid: e73a337775950d445ad06dc96f0ffae2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1104114757483715495, guid: e73a337775950d445ad06dc96f0ffae2, type: 3}
       propertyPath: healthPoints
       value: 150
@@ -140,18 +144,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 241094302415354673, guid: e73a337775950d445ad06dc96f0ffae2, type: 3}
   m_PrefabInstance: {fileID: 7422208239146876420}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7408399697626266779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7230655560679802165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc42e884ab7d3147b7ad86f0e896c16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &1418251925
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -166,3 +158,15 @@ CapsuleCollider:
   m_Height: 2.36
   m_Direction: 1
   m_Center: {x: 0, y: 0.85, z: 0}
+--- !u!114 &7408399697626266779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7230655560679802165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc42e884ab7d3147b7ad86f0e896c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
