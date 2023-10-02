@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7546f27d865eb5147b313f00bb0360ad, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -185,7 +185,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30049076}
-  m_LocalRotation: {x: 0.106902435, y: -0.72557837, z: 0.1157962, w: 0.6698502}
+  m_LocalRotation: {x: 0.10690244, y: -0.7255783, z: 0.1157962, w: 0.6698501}
   m_LocalPosition: {x: 16.82, y: 3.45, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -194,24 +194,6 @@ Transform:
   m_Father: {fileID: 1399606395}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &60285436 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5178502611049097535, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
-  m_PrefabInstance: {fileID: 5178502611108907203}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &60285440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60285436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0372ecd8cf5bf9b4c81dd76497fb6fb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: Sandbox 2
 --- !u!1 &102038332
 GameObject:
   m_ObjectHideFlags: 3
@@ -1411,7 +1393,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.0002280984, y: 1.083969e-31, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3748,10 +3730,6 @@ PrefabInstance:
     - target: {fileID: 5178502611049097532, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5178502611049097534, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5178502611049097535, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
       propertyPath: m_Name
