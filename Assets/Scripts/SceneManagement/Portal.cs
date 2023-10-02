@@ -9,9 +9,14 @@ namespace RPG.SceneManagement
 {
     public class Portal : MonoBehaviour
     {
+        enum DestinationIdentifier
+        {
+            A, B, C, D, E
+        }
+
         [SerializeField] string sceneToLoad;
         [SerializeField] Transform spawnPoint;
-
+        [SerializeField] DestinationIdentifier Destination;
 
         void OnTriggerEnter(Collider other) {
             if (other.tag == "Player")
@@ -43,8 +48,7 @@ namespace RPG.SceneManagement
             foreach (Portal portal in FindObjectsOfType<Portal>())
             {
                 if (portal == this) continue;
-
-                return portal;
+                if (this.Destination == portal.Destination) return portal;
             }
 
             return null;

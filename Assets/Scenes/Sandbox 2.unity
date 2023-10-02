@@ -437,6 +437,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 60285440, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
+      propertyPath: PortalID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60285440, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
+      propertyPath: Destination
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60285440, guid: 6f4b2c9ad84efda42afa904f67f5bae5, type: 3}
       propertyPath: sceneToLoad
       value: Sandbox
       objectReference: {fileID: 0}
