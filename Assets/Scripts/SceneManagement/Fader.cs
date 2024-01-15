@@ -11,17 +11,7 @@ namespace RPG.SceneManagement
         void Start() 
         {
             canvasGroup = GetComponent<CanvasGroup>();
-            StartCoroutine(FadeOutIn());
         }
-
-        IEnumerator FadeOutIn()
-        {
-            yield return FadeOut(3f);
-            print("Faded Out");
-            yield return FadeIn(1f);
-            print("Faded In");
-        }
-
 
         public IEnumerator FadeOut(float time)
         {
