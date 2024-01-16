@@ -66,6 +66,52 @@ namespace RPG.Movement
             GetComponent<NavMeshAgent>().enabled = false;
             transform.position = position.ToVector();
             GetComponent<NavMeshAgent>().enabled = true;
-        } 
+        }
+
+        // SAVING MULTIPLE PARAMETERS USING STRUCT
+        // [System.Serializable]
+        // struct MoverSaveData
+        // {
+        //     public SerializableVector3 position;
+        //     public SerializableVector3 rotation;
+        // }
+
+        // public object CaptureState()
+        // {
+        //     MoverSaveData data = new MoverSaveData();
+        //     data.position = new SerializableVector3(transform.position);
+        //     data.rotation = new SerializableVector3(transform.eulerAngles);
+
+        //     return data;
+        // }
+
+        // public void RestoreState(object state)
+        // {
+        //     MoverSaveData data = (MoverSaveData)state;
+        //     GetComponent<NavMeshAgent>().enabled = false;
+        //     transform.position = data.position.ToVector();
+        //     transform.eulerAngles = data.rotation.ToVector();
+        //     GetComponent<NavMeshAgent>().enabled = true;
+        // }
+        
+
+        // SAVING MULTIPLE PARAMETERS USING DICTIONARY
+        // public object CaptureState()
+        // {
+        //     Dictionary<string, object> data = new Dictionary<string, object>();
+        //     data["position"] = new SerializableVector3(transform.position);
+        //     data["rotation"] = new SerializableVector3(transform.eulerAngles);
+
+        //     return data;
+        // }
+
+        // public void RestoreState(object state)
+        // {
+        //     Dictionary<string, object> data = (Dictionary<string, object>)state;
+        //     GetComponent<NavMeshAgent>().enabled = false;
+        //     transform.position = ((SerializableVector3)data["position"]).ToVector();
+        //     transform.eulerAngles = ((SerializableVector3)data["rotation"]).ToVector();
+        //     GetComponent<NavMeshAgent>().enabled = true;
+        // }  
     }
 }
