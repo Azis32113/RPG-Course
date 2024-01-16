@@ -11,6 +11,14 @@ namespace RPG.SceneManagement
     {
         const string defaultSaveFile = "save";
 
+        IEnumerator Start()
+        {
+            Fader fader = FindObjectOfType<Fader>();
+            fader.FadeOutImmediate();
+            yield return GetComponent<SavingSystem>().LoadLastScene(defaultSaveFile);
+            yield return fader.FadeIn(0.3f);
+        }
+
         // Update is called once per frame
         void Update()
         {
