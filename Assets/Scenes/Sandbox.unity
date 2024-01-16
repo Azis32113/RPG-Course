@@ -185,7 +185,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30049076}
-  m_LocalRotation: {x: 0.10690245, y: -0.7255783, z: 0.115796186, w: 0.66985023}
+  m_LocalRotation: {x: 0.10690244, y: -0.7255783, z: 0.1157962, w: 0.6698501}
   m_LocalPosition: {x: 16.82, y: 3.45, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -273,6 +273,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 36e21175-2b77-443e-9578-a924ded2182a
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -517,6 +521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 14e94f5c-d727-45db-9c7e-c68c7a9980ed
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -591,6 +599,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: d47da42c-60af-4b09-bc6a-2ba41ee5ec2d
+      objectReference: {fileID: 0}
     - target: {fileID: 2562191841330304644, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -816,6 +828,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 4fc3e11b-2774-42bb-bba2-34a3a9b1d76a
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -956,6 +972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: f88c6633-d283-4e93-9ab1-cf866f827dd8
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -1030,6 +1050,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: bf580596-220e-4cb7-8a36-1a57ac8413eb
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -1520,6 +1544,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: f75203a2-a4ae-4d0b-bd44-cac08a5aaf18
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -1749,6 +1777,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: ea2b1cd6-9aeb-4f11-9074-21b0d2fd9a08
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -1895,6 +1927,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 62e56783-c986-48dd-a549-cc62bb1abf85
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -2399,6 +2435,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: cc7877d4-0655-4eab-8f5b-5b2b5ac64b69
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -2628,6 +2668,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 00afc29a-a16a-4d4b-9b70-416c26052b82
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -2702,6 +2746,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 6efe8ae7-82a3-4331-93a2-88dafcca1241
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -2976,6 +3024,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 8766d48f-2374-4363-9f9f-49c37de3046a
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -3192,6 +3244,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 3d80a642-3f0a-4dd2-be66-7fdfce65e4e1
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -3210,7 +3266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8427007315278364847, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.9
+      value: 12.23
       objectReference: {fileID: 0}
     - target: {fileID: 8427007315278364847, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3218,7 +3274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8427007315278364847, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.17
+      value: -7.41
       objectReference: {fileID: 0}
     - target: {fileID: 8427007315278364847, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3266,6 +3322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 67165ea5-3e80-40aa-ab99-60841a494494
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -3335,6 +3395,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1112397894}
     m_Modifications:
+    - target: {fileID: 1077078854097823240, guid: ec9374b58be339e4aa22c90560585018, type: 3}
+      propertyPath: uniqueIdentifier
+      value: d6ff477e-c210-4de1-9eb5-296427feca2c
+      objectReference: {fileID: 0}
     - target: {fileID: 2818141842481225429, guid: ec9374b58be339e4aa22c90560585018, type: 3}
       propertyPath: weaponDamage
       value: 5
@@ -3956,6 +4020,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4713375138946063183, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 5730f1ca-f4bd-4110-89b2-a1fd34d176f4
+      objectReference: {fileID: 0}
     - target: {fileID: 6859268485756350192, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4003,6 +4071,26 @@ PrefabInstance:
     - target: {fileID: 6859268485756350195, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
       propertyPath: m_Name
       value: Core
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859268486212962767, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859268486212962767, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.592535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859268486212962767, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.563454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859268486513157308, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.592535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859268486513157308, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.563454
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
