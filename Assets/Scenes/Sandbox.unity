@@ -379,6 +379,7 @@ GameObject:
   - component: {fileID: 237280424}
   - component: {fileID: 237280426}
   - component: {fileID: 237280427}
+  - component: {fileID: 237280428}
   m_Layer: 2
   m_Name: Intro Sequence
   m_TagString: Untagged
@@ -468,6 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89073859fb4427c43bca335dae5b7ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alreadyTriggered: 0
 --- !u!114 &237280427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,6 +482,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbceb46c93eca834fb60a9df3edbd76b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &237280428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237280421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: a839d80e-db8f-479b-8c27-120bbcb0c9ef
 --- !u!1 &251468343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2340,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394287801}
-  m_LocalRotation: {x: 0.01084585, y: 0.9378692, z: 0.02943555, w: -0.34556812}
+  m_LocalRotation: {x: 0.022123864, y: 0.95429397, z: -0.073065594, w: 0.288955}
   m_LocalPosition: {x: -22.1, y: 0.27, z: 22.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3513,7 +3528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 1315474655}
-  m_PathPosition: 0.3119953
+  m_PathPosition: 3
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
@@ -4020,10 +4035,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4713375138946063183, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
-      propertyPath: uniqueIdentifier
-      value: 5730f1ca-f4bd-4110-89b2-a1fd34d176f4
-      objectReference: {fileID: 0}
     - target: {fileID: 6859268485756350192, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
       propertyPath: m_RootOrder
       value: 0
