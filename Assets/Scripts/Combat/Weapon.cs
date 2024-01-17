@@ -3,18 +3,18 @@ using UnityEngine;
 namespace RPG.Combat
 {
     [CreateAssetMenu(fileName = "Weapon", menuName = "Weapon/Make New Weapon", order = 0)]
-    class Weapon : ScriptableObject 
+    public class Weapon : ScriptableObject 
     {
         [SerializeField] AnimatorOverrideController animatorOverride = null;
-        [SerializeField] GameObject equippedPrefab = null;
+        [SerializeField] GameObject weaponPrefab = null;
         [SerializeField] float weaponDamage = 5f;
         [SerializeField] float weaponRange = 2f;
 
         public void Spawn(Transform handTransform, Animator animator)
         {
-            if (equippedPrefab != null)
+            if (weaponPrefab != null)
             {
-                Instantiate(equippedPrefab, handTransform);
+                Instantiate(weaponPrefab, handTransform);
             }
 
             if (animatorOverride != null)  

@@ -146,6 +146,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1718585755849373193, guid: 2303622a0b5f5d6468ac750b3093e3aa, type: 3}
     - target: {fileID: 5815900220463867215, guid: e73a337775950d445ad06dc96f0ffae2, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 74912eacc3f729e4ebcb19d1f6dcc63e, type: 2}
+    - target: {fileID: 5815900220463867215, guid: e73a337775950d445ad06dc96f0ffae2, type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 3104565858156216884}
@@ -195,3 +199,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc42e884ab7d3147b7ad86f0e896c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &5078101498988572671
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7230655560679802165}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
