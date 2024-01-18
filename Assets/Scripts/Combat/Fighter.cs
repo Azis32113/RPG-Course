@@ -14,18 +14,19 @@ namespace RPG.Combat
         [SerializeField] Transform leftHandTransform = null;
 
         [SerializeField] Weapon defaultWeapon = null;
+        [SerializeField] string defaultWeaponName = "Unarmed";
 
 
         Health target;
         float timeSinceLastAttack = Mathf.Infinity;
-        Mover mover;
+        
 
         Weapon currentWeapon = null;
 
         void Start()
         {
-            mover = GetComponent<Mover>();
-            EquipWeapon(defaultWeapon);
+            Weapon weapon = Resources.Load<Weapon>(defaultWeaponName);
+            EquipWeapon(weapon);
         }
 
 
@@ -39,12 +40,12 @@ namespace RPG.Combat
 
             if (!GetIsInRange())
             {
-                mover.MoveTo(target.transform.position, 1f);
+                GetComponent<Mover>().MoveTo(target.transform.position, 1f);
             }
 
             else
             {
-                mover.Cancel();
+                GetComponent<Mover>().Cancel();
                 AttackBehaviour();
             }
         }
