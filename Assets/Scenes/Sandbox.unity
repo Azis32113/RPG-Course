@@ -4431,6 +4431,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -96.233
       objectReference: {fileID: 0}
+    - target: {fileID: 3991145625094086010, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
+      propertyPath: healthPoints
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 6859268485756350192, guid: 12ce55b07335bbc46a74ad0f3831b306, type: 3}
       propertyPath: m_RootOrder
       value: 0

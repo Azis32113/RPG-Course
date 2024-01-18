@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 840860649889051896, guid: c0b014f4a566351469dad4a6c804a97f, type: 3}
+      propertyPath: isHoming
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1670232314467296622, guid: c0b014f4a566351469dad4a6c804a97f, type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Red
+      value: Arrow Projectile Red
       objectReference: {fileID: 0}
     - target: {fileID: 5614197484711044694, guid: c0b014f4a566351469dad4a6c804a97f, type: 3}
       propertyPath: m_Parameters.colorGradient.atime0
