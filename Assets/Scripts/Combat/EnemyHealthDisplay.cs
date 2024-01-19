@@ -15,11 +15,10 @@ namespace RPG.Combat
         void Update() {
             if (fighter.GetTarget() == null) {
                 GetComponent<TextMeshProUGUI>().text = "N/A";
+                return;
             }
 
-            else{
-                GetComponent<TextMeshProUGUI>().text = string.Format("{0:0}%", fighter.GetTarget().GetPercentage());
-            }
+            GetComponent<TextMeshProUGUI>().text = string.Format("{0:0}%", fighter.GetTarget().GetPercentage());
 
         }
     }
