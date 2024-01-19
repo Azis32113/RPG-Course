@@ -1,7 +1,7 @@
 using RPG.Saving;
 using UnityEngine;
 
-namespace RPG.Attributes
+namespace RPG.Stats
 {
     class Experience : MonoBehaviour, ISaveable
     {

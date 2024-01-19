@@ -20,22 +20,14 @@ namespace RPG.Stats
             if (levels.Length < level) return 0;
 
             return levels[level - 1];
+        }
+
+        public int GetLevels(Stat stat, CharacterClass characterClass)
+        {
+            BuildLookup();
             
-            // foreach (ProgressionCharacterClass progressionClass in characterClasses)
-            // {
-            //     if (progressionClass.characterClass != characterClass) continue;
-
-            //     foreach (ProgressionStat progressionStat in progressionClass.stats)
-            //     {
-            //         if (progressionStat.stat != stat) continue;
-                    
-            //         if (progressionStat.levels.Length < level) continue;
-                    
-            //         return progressionStat.levels[level - 1];
-
-            //     }
-            // }
-            // return 0;
+            float[] levels =  lookupTable[characterClass][stat];
+            return levels.Length;
         }
 
         private void BuildLookup()
