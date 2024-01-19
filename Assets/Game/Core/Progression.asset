@@ -25,6 +25,7 @@ MonoBehaviour:
     health:
     - 30
     damage: []
-  - characterClass: 0
-    health: []
+  - characterClass: 3
+    health:
+    - 20
     damage: []
