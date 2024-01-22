@@ -18,13 +18,29 @@ namespace RPG.Stats
 
         int currentLevel = 0;
 
-        private void Start() {
-            currentLevel = CalculateLevel();
-            Experience experience = GetComponent<Experience>();
+        Experience experience;
+
+        void Awake() {
+            experience = GetComponent<Experience>();
+        }
+
+        void OnEnable() {
             if (experience != null)
             {
                 experience.onExperienceGained += UpdateLevel;
             }
+            
+        }
+
+        void OnDisable() {
+            if (experience != null)
+            {
+                experience.onExperienceGained -= UpdateLevel;
+            }
+        }
+
+        private void Start() {
+            currentLevel = CalculateLevel();
         }
         
         private void UpdateLevel() {
@@ -80,7 +96,7 @@ namespace RPG.Stats
         private float GetPercentageModifier(Stat stat)
         {
             if (!shouldUseModifiers) return 0;
-            
+
             float total = 0;
             foreach (IModifierProfider provider in GetComponents<IModifierProfider>())
             {
