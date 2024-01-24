@@ -67,7 +67,6 @@ namespace RPG.SceneManagement
             GameObject player = GameObject.FindWithTag("Player");
             player.GetComponent<NavMeshAgent>().enabled = false;
             player.GetComponent<NavMeshAgent>().Warp(otherPortal.spawnPoint.position);
-            player.transform.rotation = otherPortal.spawnPoint.rotation;
             player.GetComponent<NavMeshAgent>().enabled = true;
         }
 
