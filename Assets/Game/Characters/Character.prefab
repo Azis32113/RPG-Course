@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 6
+  maxNavPathLength: 30
 --- !u!114 &5815900220463867215
 MonoBehaviour:
   m_ObjectHideFlags: 0
